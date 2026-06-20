@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "formulation": "tsx src/lib/formulation.ts"
+    "formulation": "tsx src/lib/formulation.ts",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^19.2.6",
