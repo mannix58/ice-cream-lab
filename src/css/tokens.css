@@ -1,0 +1,46 @@
+/* tokens.css */
+:root {
+  color-scheme: light;
+
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --sunken: #eceff3;
+  --border: #dfe3e9;
+  --ink: #1e2330;
+  --muted: #5c6478;
+
+  --accent: #6c46c9;
+  --accent-hover: #5836a8;
+  --accent-subtle: #ece7fa;
+  --on-accent: #ffffff; /* text/icon color that sits on --accent */
+
+  --ok: #2e9e6b;
+  --ok-subtle: #e6f4ec;
+  --warn: #dd9b1c;
+  --warn-subtle: #faf0d9;
+  --bad: #db4f3c;
+  --bad-subtle: #fae7e3;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #14161c;
+  --surface: #1d212b; /* raised surfaces get *lighter* than bg in dark */
+  --sunken: #181b23;
+  --border: #2c313d;
+  --ink: #e8eaef; /* near-white, not pure, to cut glare */
+  --muted: #9aa1b2;
+
+  --accent: #a78bea; /* lifted so it pops on a dark bg */
+  --accent-hover: #bba4f1;
+  --accent-subtle: #241f3a; /* tint inverts: dark violet, not lavender */
+  --on-accent: #14161c; /* now dark text rides on the lighter accent */
+
+  --ok: #4fbe8c;
+  --ok-subtle: #16291f;
+  --warn: #e8b23e;
+  --warn-subtle: #2a2310;
+  --bad: #e96b58;
+  --bad-subtle: #2c1714;
+}
