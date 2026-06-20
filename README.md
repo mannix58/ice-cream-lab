@@ -1,16 +1,16 @@
-# Gelato Lab
+# Ice Cream Lab
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-> Balance a gelato or ice-cream base in real time. Enter your ingredients by weight and Gelato Lab computes the mix's composition — fat, solids, sugars, sweetness, and freezing power — then tells you at a glance what's in range and what needs adjusting.
+> Balance a gelato or ice-cream base in real time. Enter your ingredients by weight and Ice Cream Lab computes the mix's composition — fat, solids, sugars, sweetness, and freezing power — then tells you at a glance what's in range and what needs adjusting.
 
 ## Overview
 
 A good frozen dessert is a balancing act: enough fat and solids for body, enough sugar for flavor, and the right freezing-point depression so it stays soft enough to scoop without turning to soup. Those quantities pull against each other, and dialing them in by trial and error wastes a lot of cream.
 
-Gelato Lab turns that into a live readout. You build a recipe from a small ingredient database, and the app continuously recomputes the mix's composition by mass and flags any metric that falls outside the target band for the style you're making. It started as a React + TypeScript exercise and grew into a genuinely useful little instrument.
+Ice Cream Lab turns that into a live readout. You build a recipe from a small ingredient database, and the app continuously recomputes the mix's composition by mass and flags any metric that falls outside the target band for the style you're making. It started as a React + TypeScript exercise and grew into a genuinely useful little instrument.
 
 ## Features
 
@@ -46,7 +46,7 @@ Each computed value is checked against a target band for the selected style. Gel
 ## Project structure
 
 ```
-gelato-lab/
+ice-cream-lab/
 ├─ src/
 │  ├─ lib/
 │  │  └─ formulation.ts      # types, seed data, computeStats (pure, tested first)
