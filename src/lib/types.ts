@@ -32,7 +32,8 @@ export interface SugarCoefficient {
   pod: number;
   pac: number;
 }
-interface RecipeItem {
+
+export interface RecipeItem {
   ingredientId: string;
   grams: number;
 }
