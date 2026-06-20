@@ -1,0 +1,78 @@
+import type { Ingredient, SugarCoefficient } from "./types";
+
+export const INGREDIENTS: Ingredient[] = [
+  {
+    id: "whole-milk",
+    name: "Whole milk (3.25%)",
+    category: "dairy",
+    fat: 0.0325,
+    msnf: 0.09,
+    sugar: 0,
+    otherSolids: 0,
+  },
+  {
+    id: "heavy-cream",
+    name: "Heavy cream (36%)",
+    category: "dairy",
+    fat: 0.36,
+    msnf: 0.055,
+    sugar: 0,
+    otherSolids: 0,
+  },
+  {
+    id: "smp",
+    name: "Skim milk powder",
+    category: "dairy",
+    fat: 0.01,
+    msnf: 0.96,
+    sugar: 0,
+    otherSolids: 0,
+  },
+  {
+    id: "sucrose",
+    name: "Sucrose",
+    category: "sugar",
+    fat: 0,
+    msnf: 0,
+    sugar: 1,
+    otherSolids: 0,
+    sugarKind: "sucrose",
+  },
+  {
+    id: "dextrose",
+    name: "Dextrose",
+    category: "sugar",
+    fat: 0,
+    msnf: 0,
+    sugar: 1,
+    otherSolids: 0,
+    sugarKind: "dextrose",
+  },
+  {
+    id: "egg-yolk",
+    name: "Egg yolk",
+    category: "egg",
+    fat: 0.33,
+    msnf: 0,
+    sugar: 0,
+    otherSolids: 0.17,
+  },
+  {
+    id: "stabilizer",
+    name: "Stabilizer blend",
+    category: "stabilizer",
+    fat: 0,
+    msnf: 0,
+    sugar: 0,
+    otherSolids: 1,
+  },
+];
+
+export const SUGAR_COEFFICIENTS: SugarCoefficient[] = [
+  { kind: "sucrose", pod: 1.0, pac: 1.0 },
+  { kind: "dextrose", pod: 0.7, pac: 1.9 },
+  { kind: "fructose", pod: 1.7, pac: 1.9 },
+  { kind: "invert", pod: 1.25, pac: 1.9 },
+  { kind: "glucoseSyrup", pod: 0.5, pac: 0.8 },
+  { kind: "lactose", pod: 0.16, pac: 1.0 },
+];
